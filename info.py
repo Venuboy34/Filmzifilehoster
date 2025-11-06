@@ -79,10 +79,10 @@ APP_NAME = None
 
 # 🌐 Server Settings
 PORT = 2626  # Port for web server
-NO_PORT = True  # Disable port in URL
+NO_PORT = False  # Disable port in URL - CHANGED TO TRUE
 HAS_SSL = False  # Use HTTPS if True
-BIND_ADDRESS = "medieval-caresse-zerocreationhh-abbc03ac.koyeb.app"  # Server bind address
-FQDN = BIND_ADDRESS  # Full domain name or fallback to bind address
-PORT_SEGMENT = f":{PORT}/"  # Port in URL if not disabled
+BIND_ADDRESS = "127.0.0.1"  # Server bind address
+FQDN = "medieval-caresse-zerocreationhh-abbc03ac.koyeb.app"  # Full domain name
+PORT_SEGMENT = "" if NO_PORT else f":{PORT}/"  # Port in URL if not disabled
 PROTOCOL = "http"  # Protocol for URL
 URL = f"{PROTOCOL}://{FQDN}{PORT_SEGMENT}"  # Final generated base URL
