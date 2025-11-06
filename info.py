@@ -21,8 +21,8 @@ ADMINS = [8304706556]  # List of admin user IDs
 AUTH_CHANNEL = [-1003190344328]  # Allowed channels for authorization
 
 # Usernames (without @)
-OWNER_USERNAME = 'BOT_OWNER26'  # Owner's username
-BOT_USERNAME = 'AV_F2L_BOT'  # Bot's username
+OWNER_USERNAME = 'Zeroboy216'  # Owner's username
+BOT_USERNAME = 'Filmzihdjdhoster_bot'  # Bot's username
 
 # 🔗 Channel & Support Links
 CHANNEL = 'https://t.me/AV_BOTz_UPDATE'  # Updates channel
@@ -79,7 +79,7 @@ APP_NAME = None
 
 # 🌐 Server Settings
 PORT = 2626  # Port for web server
-NO_PORT = False  # Disable port in URL - CHANGED TO TRUE
+NO_PORT = True  # Disable port in URL - CHANGED TO TRUE
 HAS_SSL = False  # Use HTTPS if True
 BIND_ADDRESS = "127.0.0.1"  # Server bind address
 FQDN = "medieval-caresse-zerocreationhh-abbc03ac.koyeb.app"  # Full domain name
