@@ -17,8 +17,8 @@ VERIFIED_LOG = -1003190344328  # Verified user actions log
 SUPPORT_GROUP = -1003190344328
 
 # Admin and Auth Channel IDs
-ADMINS = [5977931010]  # List of admin user IDs
-AUTH_CHANNEL = [-1002102037760, -1002012150170]  # Allowed channels for authorization
+ADMINS = [8304706556]  # List of admin user IDs
+AUTH_CHANNEL = [-1003190344328]  # Allowed channels for authorization
 
 # Usernames (without @)
 OWNER_USERNAME = 'BOT_OWNER26'  # Owner's username
@@ -46,7 +46,7 @@ SHORTLINK_URL = 'techvjlink.site'  # Shortener site
 SHORTLINK_API = 'd73e70a35dc3877fa14afbf51fa8ec312c94780c'  # API key for shortlink
 
 # 💾 MongoDB Connection Information
-DB_URL = "mongodb+srv://aman:aman@cluster0p1.mongodb.net/?rites=truity&appName=Cluster0"  # MongoDB connection URI
+DB_URL = "mongodb+srv://vsandeepa183_db_user:e4jIHUZtxqmxLxwn@cluster0.37hphiw.mongodb.net/?appName=Cluster0"  # MongoDB connection URI
 DB_NAME = "cluster0"  # MongoDB database name
 
 # 📸 All Media (Images)
