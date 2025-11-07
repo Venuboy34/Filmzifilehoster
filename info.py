@@ -30,13 +30,13 @@ SUPPORT = 'https://t.me/AV_SUPPORT_GROUP'  # Support group
 HOW_TO_VERIFY = 'https://t.me/'  # Verification guide link
 HOW_TO_OPEN = 'https://t.me/'  # File access guide link
 
-# ✅ Feature Toggles (True/False)
+# ✅ Feature Toggles
 VERIFY = False  # Enable user verification
 FSUB = True  # Force Subscribe feature
 ENABLE_LIMIT = True  # Enable file limits
 BATCH_VERIFY = False  # Verify files in batch
 IS_SHORTLINK = False  # Enable channel shortlink creation
-MAINTENANCE_MODE = False  # Put bot in maintenance
+MAINTENANCE_MODE = False  # Put bot in maintenance mode
 PROTECT_CONTENT = False  # Enable content protection
 PUBLIC_FILE_STORE = True  # Public or private file visibility
 BATCH_PROTECT_CONTENT = False  # Batch file protection
@@ -54,7 +54,7 @@ QR_CODE = 'https://graph.org/file/6afb4093d5ec5c4176979.jpg'  # QR Code image
 VERIFY_IMG = "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"  # Verify success image
 AUTH_PICS = 'https://envs.sh/AwV.jpg'  # Auth step image
 PICS = 'https://envs.sh/_pM.jpg'  # Default info image
-FILE_PIC = 'https://i.ibb.co/bj4My0bW/photo-2025-07-21-02-15-21-7529360175656861700.jpg'  # File image 
+FILE_PIC = 'https://i.ibb.co/bj4My0bW/photo-2025-07-21-02-15-21-7529360175656861700.jpg'  # File image
 
 # 📝 File Captions
 FILE_CAPTION = script.CAPTION  # Caption for single file
@@ -77,12 +77,12 @@ name = 'avbotz'  # Project name
 ON_HEROKU = False
 APP_NAME = None
 
-# 🌐 Server Settings
+# 🌐 Server Settings (✅ Fixed HTTPS)
 PORT = 2626  # Port for web server
 NO_PORT = True  # Disable port in URL
-HAS_SSL = False  # Use HTTPS if True
+HAS_SSL = True  # ✅ Enable SSL (Fixes secure download issue)
 BIND_ADDRESS = "127.0.0.1"  # Server bind address
 FQDN = "filmzicloud.koyeb.app"  # Full domain name
 PORT_SEGMENT = ""  # No port in URL
-PROTOCOL = "http"  # Protocol for URL
+PROTOCOL = "https"  # ✅ Use HTTPS instead of HTTP
 URL = f"{PROTOCOL}://{FQDN}/"  # Final generated base URL with trailing slash
