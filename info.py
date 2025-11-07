@@ -38,7 +38,7 @@ BATCH_VERIFY = False  # Verify files in batch
 IS_SHORTLINK = False  # Enable channel shortlink creation
 MAINTENANCE_MODE = False  # Put bot in maintenance
 PROTECT_CONTENT = False  # Enable content protection
-PUBLIC_FILE_STORE = True  # Public or private file visibility
+PUBLIC_FILE_STORE = False  # Public or private file visibility
 BATCH_PROTECT_CONTENT = False  # Batch file protection
 
 # 🔗 Shortlink Configuration
